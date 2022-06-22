@@ -39,24 +39,8 @@ p {
   }
 }
 
-.submit-color {
-  background-color: #17a2b8;
-  color: white;
-  opacity: 0.9;
-  transition: all 0.4s;
-  margin: 0 auto;
-}
-
-.submit-color:hover {
-  opacity: 1.0;
-}
-
-.submit-center {
-  text-align: center;
-  margin-top: 30px;
-}
-
-#page-top {
+@media screen and (max-width:576px) {
+  #page-top {
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -74,6 +58,26 @@ p {
   height: 100%;
   border-radius: 50%;
 }
+}
+
+.submit-color {
+  background-color: #17a2b8;
+  color: white;
+  opacity: 0.9;
+  transition: all 0.4s;
+  margin: 0 auto;
+}
+
+.submit-color:hover {
+  opacity: 1.0;
+}
+
+.submit-center {
+  text-align: center;
+  margin-top: 30px;
+}
+
+
 
 footer {
   background-color: #343a40;
